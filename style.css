@@ -1,0 +1,96 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header#main-header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+header#main-header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+.menu a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    color: #ff9100;
+    text-decoration: underline;
+}
+
+.menu a:visited {
+    color: #ccc;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.section-info {
+    background-color: #fafafa;
+}
+
+#about .list-item {
+    color: #555;
+}
+
+#about .list-item:nth-child(3) {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #00aaff;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+section h2::before {
+    content: "— ";
+    color: #333;
+}
+
+.menu a:visited {
+    color: #777;
+}
